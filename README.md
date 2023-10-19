@@ -7,7 +7,7 @@ A robust and easy-to-use utility for interacting with Web Storage API (localStor
 import storage from '@sswahn/storage'
 
 // Using localStorage
-const data = {username: context.username}
+const data = {username: state.username}
 storage.local.set('user', data)
 const user = storage.local.get('user')
 
