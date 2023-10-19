@@ -1,11 +1,6 @@
 # Storage
 A robust and easy-to-use utility for interacting with Web Storage API (localStorage and sessionStorage) with built-in error handling.  
 
-## Installation  
-```
-npm i @sswahn/storage
-```  
-
 ## Usage  
 
 ```javascript
