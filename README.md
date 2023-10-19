@@ -18,7 +18,7 @@ const user = storage.session.get('user')
 
 ## API  
 
-**local**
+**local**  
 Interacts with localStorage.  
 
 `.get(key)`
@@ -36,7 +36,7 @@ Clears all items from localStorage.
 `.key(n)`
 Returns the name of the nth key in the localStorage.  
 
-**session**
+**session**  
 Interacts with sessionStorage.  
 
 Session methods are identical to the local API.  
