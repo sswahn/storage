@@ -25,7 +25,7 @@ Interacts with localStorage.
 Retrieves a parsed value from localStorage based on the provided key.  
 
 `.set(key, value)`
-Saves a value to localStorage under the specified key.  
+Saves a value to localStorage under the specified key, value must be of type 'object'.
 
 `.remove(key)`
 Removes an item from localStorage using the specified key.  
