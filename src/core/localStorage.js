@@ -60,7 +60,7 @@ function storage() {
       try {
         sessionStorage.removeItem(key)
       } catch (error) {
-        throw new Error(`Error removing item from local storage using key: ${key}`)
+        throw new Error(`Error removing item from session storage using key: ${key}`)
       }
     },
     clear() {
