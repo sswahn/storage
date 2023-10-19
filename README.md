@@ -39,7 +39,7 @@ Returns the name of the nth key in the localStorage.
 **session**
 Interacts with sessionStorage.  
 
-Methods are identical to the local API.  
+Session methods are identical to the local API.  
 
 ## Licence
 Bind is [MIT Licensed](https://github.com/sswahn/bind/blob/main/LICENSE)
