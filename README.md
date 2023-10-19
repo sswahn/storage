@@ -21,19 +21,19 @@ const user = storage.session.get('user')
 **local**  
 Interacts with localStorage.  
 
-`.get(key)`  
+`.get(key)`
 Retrieves a parsed value from localStorage based on the provided key.  
 
-`.set(key, value)`  
+`.set(key, value)`
 Saves a value to localStorage under the specified key.  
 
-`.remove(key)`  
+`.remove(key)`
 Removes an item from localStorage using the specified key.  
 
-`.clear()`  
+`.clear()`
 Clears all items from localStorage.  
 
-`.key(n)`  
+`.key(n)`
 Returns the name of the nth key in the localStorage.  
 
 **session**  
