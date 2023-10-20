@@ -14,7 +14,7 @@ const user = storage.local.get('user')
 ```  
 
 ### Session Storage  
-Store and retrieve data from local storage:   
+Store and retrieve data from session storage:   
 ```javascript
 storage.session.set('user', data)
 const user = storage.session.get('user')
