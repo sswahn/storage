@@ -10,8 +10,11 @@ import storage from '@sswahn/storage'
 const data = {username: state.username}
 storage.local.set('user', data)
 const user = storage.local.get('user')
+```  
 
+```javascript
 // Using sessionStorage
+const data = {username: state.username}
 storage.session.set('user', data)
 const user = storage.session.get('user')
 ```
