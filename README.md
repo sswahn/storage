@@ -2,11 +2,12 @@
 A robust and easy-to-use utility for interacting with Web Storage API (localStorage and sessionStorage) with built-in error handling.  
 
 ## Usage  
+```javascript
+import storage from '@sswahn/storage'
+```
 
 ```javascript
 // Using localStorage
-import storage from '@sswahn/storage'
-
 const data = {username: state.username}
 storage.local.set('user', data)
 const user = storage.local.get('user')
@@ -14,8 +15,6 @@ const user = storage.local.get('user')
 
 ```javascript
 // Using sessionStorage
-import storage from '@sswahn/storage'
-
 const data = {username: state.username}
 storage.session.set('user', data)
 const user = storage.session.get('user')
