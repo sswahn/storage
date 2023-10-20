@@ -2,16 +2,19 @@
 A robust and easy-to-use utility for interacting with Web Storage API (localStorage and sessionStorage) with built-in error handling.  
 
 ## Usage  
+Import library  
 ```javascript
 import storage from '@sswahn/storage'
 ```
 ### Local Storage  
+Store and retrieve data from local storage.  
 ```javascript
 storage.local.set('user', data)
 const user = storage.local.get('user')
 ```  
 
 ### Session Storage  
+Store and retrieve data from local storage.  
 ```javascript
 storage.session.set('user', data)
 const user = storage.session.get('user')
