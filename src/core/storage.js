@@ -1,5 +1,5 @@
-function storage() {
-  const local = { 
+const storage = {
+  local: { 
     get(key) {
       try {
         return JSON.parse(
@@ -37,9 +37,8 @@ function storage() {
         throw new Error(`Error retrieving key from local storage using index: ${n}.`)
       }
     }
-  }
-
-  const session = { 
+  },
+  session: { 
     get(key) {
       try {
         return JSON.parse(
@@ -78,8 +77,6 @@ function storage() {
       }
     }
   }
-
-  return {local, session}
 }
 
-export default storage()
+export default storage
