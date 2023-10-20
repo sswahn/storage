@@ -5,14 +5,14 @@ A robust and easy-to-use utility for interacting with Web Storage API (localStor
 ```javascript
 import storage from '@sswahn/storage'
 ```
-
+### Local Storage  
 ```javascript
-// Using localStorage
 const data = {username: state.username}
 storage.local.set('user', data)
 const user = storage.local.get('user')
 ```  
 
+### Session Storage  
 ```javascript
 // Using sessionStorage
 const data = {username: state.username}
