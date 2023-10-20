@@ -7,14 +7,14 @@ Import library
 import storage from '@sswahn/storage'
 ```
 ### Local Storage  
-Store and retrieve data from local storage.  
+Store and retrieve data from local storage:  
 ```javascript
 storage.local.set('user', data)
 const user = storage.local.get('user')
 ```  
 
 ### Session Storage  
-Store and retrieve data from local storage.  
+Store and retrieve data from local storage:   
 ```javascript
 storage.session.set('user', data)
 const user = storage.session.get('user')
