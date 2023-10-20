@@ -46,4 +46,4 @@ Interacts with sessionStorage.
 Session methods are identical to the local API.  
 
 ## Licence
-Bind is [MIT Licensed](https://github.com/sswahn/bind/blob/main/LICENSE)
+Storage is [MIT Licensed](https://github.com/sswahn/storage/blob/main/LICENSE)
