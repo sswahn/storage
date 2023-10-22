@@ -45,5 +45,5 @@ Interacts with sessionStorage.
 
 Session methods are identical to the local API.  
 
-## Licence
+## License
 Storage is [MIT Licensed](https://github.com/sswahn/storage/blob/main/LICENSE)
