@@ -58,7 +58,7 @@ const keyName = storage.session.key(0)
 ```
 
 ## Error Handling
-Each method is wrapped in a try-catch block, providing detailed error messages. Handle errors as per your application's requirements.
+Each method can be wrapped in a try-catch block, providing detailed error messages. Handle errors as per your application's requirements.
 ```javascript
 try {
   const data = storage.local.get('key')
