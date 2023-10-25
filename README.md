@@ -57,7 +57,15 @@ storage.session.clear()
 const keyName = storage.session.key(0)
 ```
 
- 
+## Error Handling
+Each method is wrapped in a try-catch block, providing detailed error messages. Handle errors as per your application's requirements.
+```javascript
+try {
+  const data = storage.local.get('key')
+} catch (error) {
+  console.error(error.message)
+}
+```
 
 ## License
 Storage is [MIT Licensed](https://github.com/sswahn/storage/blob/main/LICENSE)
