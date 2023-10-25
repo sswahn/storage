@@ -1,5 +1,17 @@
 # Storage
-A robust and easy-to-use utility for interacting with Web Storage API (localStorage and sessionStorage) with built-in error handling. This utility abstracts away the raw Web Storage API, providing enhanced error handling and JSON serialization/deserialization out of the box.  
+A robust and easy-to-use utility for interacting with Web Storage API (localStorage and sessionStorage). This utility abstracts away the raw Web Storage API, providing enhanced error handling and JSON serialization/deserialization out of the box.  
+
+## Features
+- Consistent methods for both localStorage and sessionStorage.
+- Built-in JSON serialization and deserialization.
+- Robust error handling with descriptive error messages.
+- Simplified interface for common storage operations.  
+
+## Installation
+Using NPM.
+```bash
+npm install @sswahn/database
+```
 
 ## Usage  
 Import library.  
