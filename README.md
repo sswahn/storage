@@ -18,18 +18,43 @@ Import library.
 ```javascript
 import storage from '@sswahn/storage'
 ```
+
 ### Local Storage  
-Store and retrieve data from local storage. 
+
+Set an item.  
 ```javascript
 storage.local.set('user', data)
+```
+
+Get an item.  
+```javascript
 const user = storage.local.get('user')
-```  
+```
+
+Remove an item.  
+```javascript
+storage.local.remove('user')
+```
+
+Clear all items.  
+```javascript
+storage.local.clear()
+```
+
+Retrieve a key by index.
+```javascript
+const keyName = storage.local.key(0)
+```
 
 ### Session Storage  
-Store and retrieve data from session storage.   
+
+The methods for sessionStorage are identical to those for localStorage.  
 ```javascript
-storage.session.set('user', data)
-const user = storage.session.get('user')
+storage.session.set('key', { data: 'some data' })
+const data = storage.session.get('key')
+storage.session.remove('key')
+storage.session.clear()
+const keyName = storage.session.key(0)
 ```
 
  
