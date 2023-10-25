@@ -10,7 +10,7 @@ A robust and easy-to-use utility for interacting with Web Storage API (localStor
 ## Installation
 Using NPM.
 ```bash
-npm install @sswahn/database
+npm install @sswahn/storage
 ```
 
 ## Usage  
