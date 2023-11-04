@@ -1,6 +1,9 @@
 const storage = {
   local: { 
     get(key) {
+      if (typeof key !== 'string') {
+        throw new TypeError('local.get: argument must be of type string.')
+      }
       try {
         return JSON.parse(
           localStorage.getItem(key)
@@ -10,6 +13,12 @@ const storage = {
       }
     },
     set(key, value) {
+      if (typeof key !== 'string') {
+        throw new TypeError('local.set: first argument must be of type string.')
+      }
+      if (typeof value !== 'object') {
+        throw new TypeError('local.set: second argument must be of type object.')
+      }
       try {
         localStorage.setItem(key, JSON.stringify(value))
       } catch (error) {
@@ -17,6 +26,9 @@ const storage = {
       }
     },
     remove(key) {
+      if (typeof key !== 'string') {
+        throw new TypeError('local.remove: argument must be of type string.')
+      }
       try {
         localStorage.removeItem(key)
       } catch (error) {
@@ -31,6 +43,9 @@ const storage = {
       }
     },
     key(n) {
+      if (typeof n !== 'number') {
+        throw new TypeError('local.key: argument must be of type number.')
+      }
       try {
         return localStorage.key(n)
       } catch (error) {
@@ -40,6 +55,9 @@ const storage = {
   },
   session: { 
     get(key) {
+      if (typeof key !== 'string') {
+        throw new TypeError('session.get: argument must be of type string.')
+      }
       try {
         return JSON.parse(
           sessionStorage.getItem(key)
@@ -49,6 +67,12 @@ const storage = {
       }
     },
     set(key, value) {
+      if (typeof key !== 'string') {
+        throw new TypeError('session.set: first argument must be of type string.')
+      }
+      if (typeof value !== 'object') {
+        throw new TypeError('session.set: second argument must be of type object.')
+      }
       try {
         sessionStorage.setItem(key, JSON.stringify(value))
       } catch (error) {
@@ -56,6 +80,9 @@ const storage = {
       }
     },
     remove(key) {
+      if (typeof key !== 'string') {
+        throw new TypeError('session.remove: argument must be of type string.')
+      }
       try {
         sessionStorage.removeItem(key)
       } catch (error) {
@@ -70,6 +97,9 @@ const storage = {
       }
     },
     key(n) {
+      if (typeof n !== 'number') {
+        throw new TypeError('session.key: argument must be of type number.')
+      }
       try {
         return sessionStorage.key(n)
       } catch (error) {
