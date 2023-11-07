@@ -1,4 +1,4 @@
-# Storage
+# Storage · [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sswahn/storage/blob/main/LICENSE)
 A robust and easy-to-use utility for interacting with Web Storage API (localStorage and sessionStorage). This utility abstracts away the raw Web Storage API, providing enhanced error handling and JSON serialization/deserialization out of the box.  
 
 ## Features
