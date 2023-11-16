@@ -67,5 +67,11 @@ try {
 }
 ```
 
+## Related
+- [@sswahn/database](https://www.npmjs.com/package/@sswahn/database): Easily interact with the IndexedDB API with a simplified, promise-based approach.
+- [@sswahn/cookie](https://www.npmjs.com/package/@sswahn/cookie): A lightweight, easy-to-use utility for efficiently managing cookies in a web browser.
+- [@sswahn/cache](https://www.npmjs.com/package/@sswahn/cache): A robust caching utility that provides easy-to-use methods for interacting with the browser's Cache API.
+
+
 ## License
 Storage is [MIT Licensed](https://github.com/sswahn/storage/blob/main/LICENSE)
